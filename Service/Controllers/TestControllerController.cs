@@ -46,6 +46,7 @@ namespace Service.Controllers
         }
         public IHttpActionResult GetData()
         {
+            var abc = string.Empty;
             return Ok();
         }
         public IHttpActionResult PostData()
