@@ -48,6 +48,10 @@ namespace Service.Controllers
         {
             return Ok();
         }
+        public IHttpActionResult PostData()
+        {
+            return Ok();
+        }
 
     }
 }
