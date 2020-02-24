@@ -44,6 +44,10 @@ namespace Service.Controllers
                         .Select(c => c.Value);
             return Ok("Hello " + identity.Name + "Your Role(s) are: " + string.Join(",", roles.ToList()));
         }
+        public IHttpActionResult GetData()
+        {
+            return Ok();
+        }
 
     }
 }
